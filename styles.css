@@ -1,0 +1,57 @@
+html{
+    background: black ;
+    font-size: 30px;
+    background-attachment: fixed;
+}
+
+form p{
+    width: 50%;
+    float: left;
+}
+
+/* button */
+button{
+    width: 35%;
+    margin: 10px;
+    height: 35%;
+    background-color: hotpink;
+    border: none;
+    transition: 0.5s;
+    float: none;
+    font-size: 35px;
+    color: black;
+    font-style: oblique;
+}
+
+.button:hover{
+    opacity: 1;
+}
+
+button:hover{
+    background-color: black;
+    color: hotpink;
+}
+
+input{
+    font-size: 30px;
+}
+
+h2{
+    font-style: oblique;
+    background: -webkit-linear-gradient(hotpink, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    color: hotpink;
+}
+input{
+    background: linear-gradient(hotpink, black);
+    border: none;
+    color: rgb(254, 120, 212);
+}
+
+article{
+    color: hotpink;
+}
