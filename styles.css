@@ -1,5 +1,5 @@
 html{
-    background: black ;
+    background: linear-gradient(black, rgb(20, 0, 18)) ;
     font-size: 30px;
     background-attachment: fixed;
 }
@@ -21,6 +21,7 @@ button{
     font-size: 35px;
     color: black;
     font-style: oblique;
+    border-radius: 10px;
 }
 
 .button:hover{
@@ -28,8 +29,10 @@ button{
 }
 
 button:hover{
-    background-color: black;
+    background-color: rgb(20, 0, 18);
     color: hotpink;
+    border: none;
+    border-radius: 10px;
 }
 
 input{
